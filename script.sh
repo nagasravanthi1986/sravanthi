@@ -1,3 +1,3 @@
 #!/bin/bash
-read -p "enter your name: " username
-echo "$username kalangi"
+
+echo my surname is: "$*" kalangi
