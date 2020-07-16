@@ -1,0 +1,11 @@
+#!/bin/bash
+echo "enter a file name: $1"
+v=$(file $1)
+echo "file type is $v"
+if [ -d "$1" ]; then
+echo "given is a directory"
+exit 1
+else
+echo "given is a file"
+exit 2
+fi
