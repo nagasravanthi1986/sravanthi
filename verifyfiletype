@@ -1,0 +1,11 @@
+#!/bin/bash 
+
+echo "enter file name: $1"
+v=$(file $1)
+echo "file name is $v"
+
+ls -l $1
+echo "enter file name: $2"
+w=$(file $2)
+echo "file name is $w"
+ls -l $2
