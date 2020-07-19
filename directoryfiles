@@ -1,0 +1,7 @@
+#!/bin/bash
+
+file_count()
+{
+ls tomcat9 | wc -l 
+}
+file_count
